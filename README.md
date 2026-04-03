@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 🚍 Bus Booking Web Application (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern full-stack Bus Booking Web Application built using React.js.  
+This application allows users to search buses, select seats, and book tickets in a seamless and interactive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Live Demo
 
-### `npm start`
+🔗 https://bus-booking-fronted.vercel.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Project Overview
 
-### `npm test`
+This is the frontend of a Bus Booking System that interacts with a Node.js + Express backend and MongoDB Atlas database.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can:
+- Search available buses based on route
+- View bus details
+- Select seats visually
+- Enter passenger details
+- Confirm bookings
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  React.js (Frontend Framework)
+-  React Router DOM (Routing)
+-  Axios (API Calls)
+-  CSS (Styling)
+-  Vercel (Deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##  Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###  Bus Search
+- Search buses using:
+  - Departure City
+  - Arrival City
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###  Bus Listing
+- View available buses with:
+  - Bus Name
+  - Route (From → To)
+  - Departure & Arrival Time
+  - Price
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+###  Seat Selection
+- Interactive seat layout
+- Select / deselect seats
+- Seat availability indication
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+###  Dynamic Pricing
+- Total price updates automatically based on selected seats
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+###  Passenger Details
+- Enter:
+  - Name
+  - Age
+- One form per selected seat
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###  Booking Confirmation
+- Booking success message
+- Summary of:
+  - Selected seats
+  - Total price
+  - Bus details
+ 
+  - 
+---
 
-### Making a Progressive Web App
+## ⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+###  Clone the repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/ajay8473/bus-booking-fronted.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## installation dependancy
+npm install
+## start
+npm start
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Project Structure
